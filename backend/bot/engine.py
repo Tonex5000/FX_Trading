@@ -19,7 +19,7 @@ from services.pepperstone import fetch_market_data
 from services.news   import fetch_news_data
 from services.groq   import run_ai_analysis
 from bot.executor    import (
-    place_order, get_open_trade, check_trade_status,
+    place_order, get_open_trade,
     close_trade, get_account_balance,
 )
 from bot.schemas     import BotConfig, BotStatus, BotRunResult, TradeOrder
